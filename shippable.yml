@@ -13,9 +13,7 @@ env:
 
   matrix:
     - M1=ONE
-services:
-   - rethinkdb
-   
+
 build:
   cache: true
   
@@ -33,4 +31,3 @@ build:
     - cat shippable/codecoverage/cobertura-coverage.xml
     - export XUNIT_FILE=shippable/testresults/result.xml
     - grunt
- 
