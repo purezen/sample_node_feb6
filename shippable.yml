@@ -21,7 +21,6 @@ build:
     - echo "Hello, World!"
     - env
     - echo $PATH
-    - reports --help
     - node --version
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
